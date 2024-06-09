@@ -1,0 +1,38 @@
+
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing:border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: auto;
+    padding: auto;
+    line-height: 1;
+    
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+.tudo {
+    display: flex;
+    flex-direction:column-reverse;
+        width: 100%;
+        flex-direction:column;
+        align-items:center;
+        width: Fixed (1,136px)px;
+        height: Hug (88px)px;
+        padding: 32px 0px 32px 0px;
+        gap: 0px;
+        justify-content: space-between;
+        opacity: 0px;
+        width: Fixed (1,136px)px;
+}
+
+
